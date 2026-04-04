@@ -1,2 +1,4 @@
 # Disease-prediction-system
-Predicts multiple diseases using machine learning models and patient health data.
+This project uses machine learning to make a system that can predict several diseases, such as diabetes, heart disease, and Parkinson's disease, using health data from patients. Supervised learning was used to train a different classification model for each disease. The workflow included cleaning up the data, picking out the most important features, and using StandardScaler to make sure that the models got the same input every time. The main algorithm used was Support Vector Machine (SVM) because it works well with high-dimensional data that needs to be classified.
+
+After training, each model was serialized with the Pickle library, which made it easy to store and use again without having to retrain. Streamlit is used to deploy the system. It has an interactive web interface where users can enter medical information for each disease. The model that goes with the chosen module is loaded and used to make
