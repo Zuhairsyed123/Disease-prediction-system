@@ -79,7 +79,7 @@ Predicts Parkinson’s using biomedical voice features:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
@@ -93,3 +93,4 @@ pip install -r requirements.txt
 3. Run the application:
 ```bash
 streamlit run app.py
+```
